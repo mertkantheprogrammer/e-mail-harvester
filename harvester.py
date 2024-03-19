@@ -2,7 +2,7 @@ import re
 import requests
 from urllib.parse import urljoin
 from bs4 import BeautifulSoup
-url = input("Başında https olacak şekilde urlyi giriniz: ")
+url = input("Enter the URL with https at the beginning: ")
 def find_emails(url):
     # Ziyaret edilen URL'leri depolamak için bir set oluştur
     visited_urls = set()
